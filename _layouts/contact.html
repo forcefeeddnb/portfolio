@@ -15,58 +15,57 @@ layout: default
         <!-- Contact Content -->
         <div class="contact-content">
             <div class="contact-grid">
-                <!-- Contact Info -->
-                <div class="contact-info">
-                    <h2 class="info-title">Get In Touch</h2>
-                    {{ content }}
+            
+          
+                {{ content }}
 
-                    {% if site.email or page.email %}
-                    <div class="contact-item">
-                        <div class="contact-label">Email</div>
-                        <a href="mailto:{{ page.email | default: site.email }}" class="contact-link">
-                            {{ page.email | default: site.email }}
-                        </a>
-                    </div>
+                {% if site.email or page.email %}
+                <div class="contact-item">
+                    <div class="contact-label">Email</div>
+                    <a href="mailto:{{ page.email | default: site.email }}" class="contact-link">
+                        {{ page.email | default: site.email }}
+                    </a>
+                </div>
+                {% endif %}
+
+                {% if page.phone %}
+                <div class="contact-item">
+                    <div class="contact-label">Phone</div>
+                    <a href="tel:{{ page.phone }}" class="contact-link">{{ page.phone }}</a>
+                </div>
+                {% endif %}
+
+                {% if page.location %}
+                <div class="contact-item">
+                    <div class="contact-label">Location</div>
+                    <p class="contact-text">{{ page.location }}</p>
+                </div>
+                {% endif %}
+
+                <!-- Social Links -->
+                {% if page.social %}
+                <div class="social-links">
+                    {% if page.social.linkedin %}
+                    <a href="{{ page.social.linkedin }}" target="_blank" rel="noopener" class="social-link">LinkedIn</a>
                     {% endif %}
-
-                    {% if page.phone %}
-                    <div class="contact-item">
-                        <div class="contact-label">Phone</div>
-                        <a href="tel:{{ page.phone }}" class="contact-link">{{ page.phone }}</a>
-                    </div>
+                    {% if page.social.twitter %}
+                    <a href="{{ page.social.twitter }}" target="_blank" rel="noopener" class="social-link">Twitter</a>
                     {% endif %}
-
-                    {% if page.location %}
-                    <div class="contact-item">
-                        <div class="contact-label">Location</div>
-                        <p class="contact-text">{{ page.location }}</p>
-                    </div>
+                    {% if page.social.instagram %}
+                    <a href="{{ page.social.instagram }}" target="_blank" rel="noopener" class="social-link">Instagram</a>
                     {% endif %}
-
-                    <!-- Social Links -->
-                    {% if page.social %}
-                    <div class="social-links">
-                        {% if page.social.linkedin %}
-                        <a href="{{ page.social.linkedin }}" target="_blank" rel="noopener" class="social-link">LinkedIn</a>
-                        {% endif %}
-                        {% if page.social.twitter %}
-                        <a href="{{ page.social.twitter }}" target="_blank" rel="noopener" class="social-link">Twitter</a>
-                        {% endif %}
-                        {% if page.social.instagram %}
-                        <a href="{{ page.social.instagram }}" target="_blank" rel="noopener" class="social-link">Instagram</a>
-                        {% endif %}
-                        {% if page.social.github %}
-                        <a href="{{ page.social.github }}" target="_blank" rel="noopener" class="social-link">GitHub</a>
-                        {% endif %}
-                        {% if page.social.behance %}
-                        <a href="{{ page.social.behance }}" target="_blank" rel="noopener" class="social-link">Behance</a>
-                        {% endif %}
-                        {% if page.social.dribbble %}
-                        <a href="{{ page.social.dribbble }}" target="_blank" rel="noopener" class="social-link">Dribbble</a>
-                        {% endif %}
-                    </div>
+                    {% if page.social.github %}
+                    <a href="{{ page.social.github }}" target="_blank" rel="noopener" class="social-link">GitHub</a>
+                    {% endif %}
+                    {% if page.social.behance %}
+                    <a href="{{ page.social.behance }}" target="_blank" rel="noopener" class="social-link">Behance</a>
+                    {% endif %}
+                    {% if page.social.dribbble %}
+                    <a href="{{ page.social.dribbble }}" target="_blank" rel="noopener" class="social-link">Dribbble</a>
                     {% endif %}
                 </div>
+                {% endif %}
+                
 
             </div>
         </div>
