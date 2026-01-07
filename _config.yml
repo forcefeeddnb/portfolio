@@ -5,8 +5,8 @@ description: >-
   
 
 # URLs
-baseurl: /bennitest
-url: https://phip123.github.io
+baseurl: /portfolio
+url: https://forcefeeddnb.github.io
 
 # Build settings
 plugins:
