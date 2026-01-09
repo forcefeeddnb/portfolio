@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Kupferdachl
-client: Private
+client: The Paranormal Unicorn
 year: 2025
 role: 3D Designer
 category: 3D Design
