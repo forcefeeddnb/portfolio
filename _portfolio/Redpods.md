@@ -5,7 +5,7 @@ client: Private
 year: 2025
 role: 3D Designer
 category: 3D Design
-image: /assets/images/redpods/redpods.png
+image: /assets/redpods/redpods.png
 featured_video: /assets/redpods/Red_Pods_lowres.mp4
 order: 2
 
