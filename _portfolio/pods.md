@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Pods
+title: Blue Pods
 client: Private
 year: 2025
 role: 3D Designer
