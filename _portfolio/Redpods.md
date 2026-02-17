@@ -7,7 +7,7 @@ role: 3D Designer
 category: 3D Design
 image: /assets/redpods/redpods.png
 featured_video: /assets/redpods/Red_Pods_lowres.mp4
-order: 2
+order: 6
 
 tools:
   - Blender

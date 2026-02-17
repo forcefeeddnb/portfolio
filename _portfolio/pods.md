@@ -7,7 +7,7 @@ role: 3D Designer
 category: 3D Design
 image: /assets/images/pods/Bluepods_still.png
 featured_video: /assets/videos/pods/Bluepods_lowres.mp4
-order: 2
+order: 5
 gallery:
   - /assets/images/pods/Bluepods_still.png
   - type: video

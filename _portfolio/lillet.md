@@ -7,7 +7,7 @@ role: 3D Designer
 category: 3D Design
 image: /assets/lillet/Lillet.png
 featured_image: /assets/lillet/Lillet.png
-order: 2
+order: 3
 
 tools:
   - Blender

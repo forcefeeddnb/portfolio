@@ -7,7 +7,7 @@ role: 3D Designer
 category: 3D Design
 image: /assets/blackwhite/blackwhitecover.png
 featured_video: /assets/blackwhite/BlackWhite.mp4
-order: 2
+order: 4
 
 tools:
   - Blender

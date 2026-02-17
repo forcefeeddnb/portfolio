@@ -7,7 +7,7 @@ role: 3D Designer
 category: 3D Design
 image: /assets/Strauss/straus.png
 featured_video: /assets/Strauss/straus.mp4
-order: 2
+order: 7
 
 tools:
   - Blender
