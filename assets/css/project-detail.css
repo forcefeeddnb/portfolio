@@ -88,9 +88,7 @@
 .project-featured {
     margin-bottom: 50px;
     border-radius: 8px;
-    overflow: hidden;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
-
 }
 
 .project-image {
@@ -108,7 +106,6 @@
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
-    overflow: hidden;
     background: #000;
 }
 
@@ -299,7 +296,7 @@
     width: auto;
     height: auto;
     display: block;
-    clip-path: polygon(0 0, 100% 0, 100% 98%, 0 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 98%, 0 100%); */
 }
 
 .lightbox-video {
@@ -308,7 +305,7 @@
     width: auto;
     height: auto;
     display: none;
-    clip-path: polygon(0 0, 100% 0, 100% 98%, 0 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 98%, 0 100%); */
 }
 
 /* Show only the active media type in lightbox */

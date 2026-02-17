@@ -327,7 +327,6 @@ a {
 
 .project-featured {
     margin-bottom: var(--spacing-lg);
-    clip-path: polygon(0 0, 100% 0, 100% 98%, 0 100%);
     overflow: hidden;
 }
 
