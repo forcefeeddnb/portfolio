@@ -356,6 +356,26 @@
     transform: translateY(-2px);
 }
 
+/* Imprint Section */
+.imprint-section {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+.imprint-content {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.imprint-content p {
+    margin-bottom: 10px;
+}
+
 /* Contact Form */
 .contact-form-wrapper {
     padding: 40px;
