@@ -7,7 +7,7 @@ role: 2D Designer
 category: 2D Design
 image: /assets/velo/banner_velo.png
 featured_video: /assets/velo/velo_vid.mp4
-order: 5
+order: 2
 gallery:
   - /assets/velo/velo_tanke_1.jpg
 
