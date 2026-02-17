@@ -83,11 +83,25 @@ layout: default
         <section class="gallery-section">
             <h2 class="section-title">Gallery</h2>
             <div class="project-gallery">
-                {% for image in page.gallery %}
-                <div class="gallery-item" data-index="{{ forloop.index0 }}">
-                    <img src="{{ image | relative_url }}" alt="{{ page.title }} Gallery" loading="lazy">
+                {% for item in page.gallery %}
+                <div class="gallery-item" data-index="{{ forloop.index0 }}"
+                     {% if item.type == 'video' %}data-type="video" data-src="{{ item.src | relative_url }}"{% else %}data-type="image"{% endif %}>
+                    {% if item.type == 'video' %}
+                        <video class="gallery-thumbnail" muted playsinline>
+                            <source src="{{ item.src | relative_url }}" type="video/mp4">
+                        </video>
+                        <div class="video-play-icon">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="white" opacity="0.9">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </div>
+                    {% elsif item.src %}
+                        <img src="{{ item.src | relative_url }}" alt="{{ page.title }} Gallery" loading="lazy">
+                    {% else %}
+                        <img src="{{ item | relative_url }}" alt="{{ page.title }} Gallery" loading="lazy">
+                    {% endif %}
                     <div class="gallery-overlay">
-                        <span class="gallery-zoom">Click to enlarge</span>
+                        <span class="gallery-zoom">{% if item.type == 'video' %}Click to play{% else %}Click to enlarge{% endif %}</span>
                     </div>
                 </div>
                 {% endfor %}
@@ -154,5 +168,9 @@ layout: default
     </button>
     <div class="lightbox-content">
         <img src="" alt="" class="lightbox-image">
+        <video class="lightbox-video" controls>
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
 </div>
