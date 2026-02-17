@@ -14,5 +14,6 @@ experience:
     company: Mediaapparat
     period: 2024-2025
     description: Internship
+    image: /assets/images/experience/mediaapparat.jpeg
 ---
 
