@@ -2,6 +2,9 @@
 layout: contact
 title: Contact
 email: contact.benjamin.auer@gmail.com
-location: Vienna, Austria
+location_image: /assets/images/location.png
+imprint_text: |
+  Text
+  Text
 ---
 

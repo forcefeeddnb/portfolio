@@ -35,10 +35,12 @@ layout: default
                 </div>
                 {% endif %}
 
-                {% if page.location %}
+                {% if page.location_image %}
                 <div class="contact-item">
                     <div class="contact-label">Location</div>
-                    <p class="contact-text">{{ page.location }}</p>
+                    <div class="location-image-wrapper">
+                        <img src="{{ page.location_image | relative_url }}" alt="Location" loading="lazy" class="location-image">
+                    </div>
                 </div>
                 {% endif %}
 
@@ -66,18 +68,15 @@ layout: default
                 </div>
                 {% endif %}
 
+                {% if page.imprint_text %}
                 <!-- Imprint Section -->
-                <div class="imprint-section">
+                <div class="contact-item contact-imprint-text">
                     <div class="contact-label">Imprint</div>
-                    <div class="imprint-content">
-                        <p><div class="about-container" style="max-width: 800px; margin: 0 auto; padding: 40px; color: #ccc; font-family: sans-serif;">
-  
-
-    <p>IPlatzhalter</p>
-    
-                        <p>Please replace this text with your actual imprint details, including company information, registration details, and any legally required disclosures according to your jurisdiction.</p>
+                    <div class="imprint-text-content">
+                        {{ page.imprint_text | markdownify }}
                     </div>
                 </div>
+                {% endif %}
 
             </div>
         </div>
