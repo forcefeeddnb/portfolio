@@ -2,7 +2,7 @@
 layout: contact
 title: Contact
 email: contact.benjamin.auer@gmail.com
-location_image: /assets/images/benjamin_adresse_neu.png
+location_image: /assets/images/benjamin_adresse_neu.png style="width: 250px;"
 imprint_text: |
     **Benjamin Auer** Digital Artist & Motion Designer  
     1130 Vienna, Austria  
