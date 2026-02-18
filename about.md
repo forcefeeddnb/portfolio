@@ -8,6 +8,8 @@ skills:
   - 3D Design
   - Blender
   - Adobe After Effects
+  - Davinci Resolve
+  - Resolume Avenue
 
 experience:
   - title: 3D Designer
