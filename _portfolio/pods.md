@@ -19,7 +19,7 @@ tools:
 
 ## About the Project
 
-Blue Pods – 3D Produkt-Animation
+Blue Pods – 3D Produktanimation
 
 EN:
 In this video, the earbuds go underwater. The camera moves through stylized seaweed until the case opens, releasing bubbles and fish. The animation playfully showcases the design of the pods, accompanied by matching underwater sound effects.
