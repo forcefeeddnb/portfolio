@@ -4,7 +4,7 @@ title: Johann Strauss New Dimensions
 client: Media Apparat
 year: 2025
 role: 3D Designer
-category: 3D Design
+category: Visual Storytelling
 image: /assets/Strauss/straus.png
 featured_video: /assets/Strauss/straus.mp4
 order: 1
