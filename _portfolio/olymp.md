@@ -7,7 +7,7 @@ role: 3D Designer
 category: 3D Brand Film
 image: /assets/Olymp/olymp_gold.png
 featured_video: /assets/Olymp/olymp_gold_lowres.mp4
-order: 1
+order: 5
 
 tools:
   - Blender
