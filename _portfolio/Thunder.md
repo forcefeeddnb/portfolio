@@ -7,7 +7,7 @@ role: 2D Designer
 category: Motion Brand Assets
 image: /assets/velo/banner_velo.png
 featured_video: /assets/velo/velo_vid.mp4
-order: 2
+order: 3
 gallery:
   - /assets/velo/velo_tanke_1.jpg
 
