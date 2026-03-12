@@ -7,7 +7,7 @@ role: 3D Designer
 category: 3D Design / Abstract Motion Study
 image: /assets/blackwhite/blackwhitecover.png
 featured_video: /assets/blackwhite/BlackWhite.mp4
-order: 4
+order: 2
 
 tools:
   - Blender
