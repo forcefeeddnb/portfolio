@@ -395,7 +395,7 @@
 }
 
 .location-image {
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
     display: block;
 }
